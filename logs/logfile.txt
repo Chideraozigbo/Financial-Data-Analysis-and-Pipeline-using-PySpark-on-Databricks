@@ -1,0 +1,2 @@
+2024-06-10 10:11:45 Connection to S3 made successfully.
+2024-06-10 10:12:00 List of objects in bucket 'financial-pipeline': [{'Key': 'Fraudulent_E-Commerce_Transaction_Data.csv', 'LastModified': datetime.datetime(2024, 6, 9, 18, 4, 49, tzinfo=tzutc()), 'ETag': '"b29afb24f8e35374e55a128bdbe0dcc8-47"', 'Size': 392819161, 'StorageClass': 'STANDARD'}, {'Key': 'Fraudulent_E-Commerce_Transaction_Data_2.csv', 'LastModified': datetime.datetime(2024, 6, 9, 18, 4, 45, tzinfo=tzutc()), 'ETag': '"dac1b0299d3c77360d1db93d2d322515"', 'Size': 6302602, 'StorageClass': 'STANDARD'}]
