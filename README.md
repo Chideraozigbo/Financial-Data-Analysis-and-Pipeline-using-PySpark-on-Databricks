@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project demonstrates a data pipeline for financial data analysis using PySpark on Databricks. The dataset used is `Fraudulent_E-Commerce_Transaction_Data.csv`, which is uploaded to an S3 bucket and then analyzed using Apache Spark on Databricks. The pipeline includes data ingestion, processing, and analysis automation.
+This project is about analyzing financial data using PySpark on Databricks. I started working on it right after learning PySpark and Databricks on DataCamp. The data we used is in a file called Fraudulent_E-Commerce_Transaction_Data.csv. First, we put this file into an S3 bucket, then we used Apache Spark on Databricks to analyze it. The project includes steps like bringing in the data, working with it, and automating the analysis.
+
+During this project, I had some trouble reading the data. No matter what I tried, I kept getting empty values, which made it hard to do the analysis. What's interesting is, when I tried reading the data with pandas and Excel, everything was fine. This difference caused a big problem in moving forward with my analysis.
 
 ## Table of Contents
 
@@ -74,10 +76,15 @@ Use the Databricks CLI or the web interface to create a new notebook.
 ```bash
 Financial-Data-Analysis-and-Pipeline-using-PySpark-on-Databricks/
 ├── Dataset/
-│   ├── Fraudulent_E-Commerce_Transaction_Data.csv
-├── s3_bucket.py
+│   └── Fraudulent_E-Commerce_Transaction_Data.csv
 ├── .env
+├── .gitattributes
+├── .gitignore
 ├── README.md
+├── financial_analysis.ipynb
+├── requirement.txt
+├── s3_bucket.py
+└── vscode/
 ```
 
 ## Contributing
